@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Navbar Section */
+
+nav {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    border-radius: 25px;
+    /* box-shadow: 5px 2px 5px rgb(255, 255, 255); */
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+nav img {
+    width: 80px;
+    padding-left: 80px;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+    margin: 10px 10px;
+}
+
+nav ul li {
+    padding: 15px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: rgb(255, 0, 0);
+    transition: 0.4s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(93, 106, 255);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+button:hover {
+    font-size: 15px;
+    background-color: red;
+    color: white;
+}
+
+
+/* Home Section Page */
+.home {
+    text-align: center;
+    padding: 50px 0;
+    color: #000000;
+    background-color: white;
+}
+
+.home img {
+    width: 15%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.home span {
+    color: black;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home span:hover {
+    color: red;
+    font-size: 45px;
+}
+
+.home p {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.home small {
+    font-size: 14px;
+    color: #000000;
+}
+
+.home .acc {
+    margin-top: 40px;
+}
+
+.home .acc ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.home .acc ul li img {
+    background-color: white;
+    width: 30px;
+    margin: 5px;
+}
+
+.acc ul li img:hover {
+    width: 35px;
+}
+
+.home button {
+    background-color: #ff0000;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home button:hover {
+    color: black;
+    background-color: #30baff;
+}
+
+/* About Section Page  */
+
+.about {
+    padding: 100px 100px;
+    text-align: center;
+}
+
+.about h4 {
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.about .myself {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.about .myself img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.about .myself span {
+    font-weight: bold;
+    color: red;
+}
+
+.about .myself p {
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 60px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.about button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 40px;
+}
+
+.about button:hover {
+    background-color: #229cff;
+}
+
+/* Services Page */
+
+.services {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 10rem;
+    padding: 20px;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.services h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-details {
+    display: flex;
+    margin-top: 15%;
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+    width: 100%;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+}
+
+.card:hover {
+    margin: 20px;
+    padding: 22px;
+    background-color: rgb(71, 71, 71);
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
+}
+
+.card img {
+    width: 60px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.card a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+/* Contact Me Page */
+
+.contact {
+    color: rgb(255, 255, 255);
+    margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact h1 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.info {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.info h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    border: 1px solid;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 15%;
+    margin-top: 25px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.icons:hover {
+    box-shadow: 5px 5px 5px white;
+}
+
+.icons img {
+    width: 40px;
+    padding: 10px;
+}
+
+.icons p {
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+/* Form Section  */
+
+form {
+    width: 50%;
+    border-radius: 25px;
+    text-align: center;
+    margin: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    padding: 30px;
+}
+
+form:hover {
+    /* background-color: rgb(255, 255, 255); */
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px rgb(255, 255, 255);
+}
+
+input {
+    padding: 5px;
+    width: 29%;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    margin: 10px;
+    width: 65%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* Footer  */
+
+footer {
+    text-align: center;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+/* End of portfolio website */
